@@ -1,0 +1,35 @@
+{
+  "name": "cursoapinode",
+  "version": "1.0.0",
+  "description": "Curso de API Rest NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/www.github.com/ltorog.git"
+  },
+  "keywords": [
+    "API",
+    "Rest",
+    "Node",
+    "Javascript",
+    "Backend"
+  ],
+  "author": "Luis Toro Gómez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/www.github.com/ltorog/issues"
+  },
+  "homepage": "https://github.com/www.github.com/ltorog#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
