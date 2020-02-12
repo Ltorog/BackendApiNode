@@ -3,9 +3,7 @@ const router = Router();
 
 const { getUsers } = require('../controllers/index'); 
 
-router.get('/users', (req, res) => {
-    res.send({message: 'users'});
-})
+router.get('/users', getUsers)
 
 
 module.exports = router;
